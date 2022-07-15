@@ -6,3 +6,4 @@ This projects aim is to showcase the understanding of HTML,CSS and JavaScript co
 *HTML<br>
 *CSS<br>
 *JavaScript<br>
+# Setup instructions
