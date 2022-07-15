@@ -16,4 +16,5 @@ This projects aim is to showcase the understanding of HTML,CSS and JavaScript co
 https://trnm7.github.io/Just_Milkit_Project3/
 # Contact Informantion
 Incase of any enquiries or contributions, be sure to email me at [    ]
+# License
 
