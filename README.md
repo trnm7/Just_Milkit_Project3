@@ -18,6 +18,7 @@ Incase of any enquiries or contributions, be sure to email me at [    ]
 # License
 MIT Licence<br>
 
+Copyright (c) 2022 trnm7<br>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
