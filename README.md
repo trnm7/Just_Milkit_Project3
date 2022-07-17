@@ -12,7 +12,7 @@ This projects aim is to showcase the understanding of HTML,CSS and JavaScript co
 *Change Directory: [cd Just_Milkit_Project3]<br>
 *Open index.html file on your browser
 # Live Page
-************************
+https://trnm7.github.io/Milkit_Project3/
 # Contact Informantion
 Incase of any enquiries or contributions, be sure to email me at [    ]
 # License
