@@ -6,7 +6,7 @@ This projects aim is to showcase the understanding of HTML,CSS and JavaScript co
 *HTML<br>
 *CSS<br>
 *JavaScript<br>
-# Setup instructions
+
 *Open the Terminal command line: [CTRL+ALT+T]<br>
 *Clone the repository: [git clone https://github.com/trnm7/Just_Milkit_Project3.git]<br>
 *Change Directory: [cd Just_Milkit_Project3]<br>
