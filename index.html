@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+ <!--font-awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+ <!--poppins font-->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,400&display=swap"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css" />
+ <!--inter and poppins font-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins&display=swap" rel="stylesheet">
+
+<!--navigation part-->
+
+		<title>Just Milkit</title>
+	</head>
+	<body>
+			<header class="navbar">
+				<div class="navb">
+					<div class="logo">
+						<h1>Just Milkit</h1>
+					</div>
+					<div class="navl">
+						<ul>
+							  <li><a href="#home">Home</a></li>
+							  <li><a href="#about">About Us</a></li>
+							  <li><a href="#contact">Contact Us</a></li>
+                              <button id="hbtn" class="btnnn"><a href="#sales">Sales & Production</a></button>
+
+						  </ul>
+					</div>
+				</div>
+			</header>
+<!--navigation part-->
+
+            <!-- Part1 -->
+
+            <div id="home"></div>
+            <div class="htext1">
+                <h1 id="hh">Welcome To<br>Just Milkit.</h1>
+                <p id="pp">'We Milk, you Drink.'<br></p>
+                <div class="hbtn">
+                    <button class="btn" id="may" onclick="myFunction();"><strong>Say Hello<span style='font-size:30px;'>&#128515;</span></strong></button>
+
+                </div>
+            </div>
+
+            <!-- Part1 -->
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <hr>
+              <!-- Part2 -->
+                <div id="about">
+                    <div class="aboutus">
+                        <h2 id="about" class="aboutuss">ABOUT US</h2>
+                        <p class="info">
+                            We are among the top and most popular quality milk <br>
+                            suppliers and have partnered with brookside, KCC and Tuzo <br>
+                            amongst others.We also supply other dairy products depending on orders. <br>
+                            Some of this products include; butter, yorghurt, cheese and many more.To reach <br>
+                            us, navigate to the contact section and reach us on any of our social media accounts.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- Part2 -->
+                <br><br>
+<hr>
+                <br><br><br><br><br><br><br>
+                <!-- Part3 -->
+    <div id="sales">
+                <h2 class="sales" id="sales">Sales & Production</h2>
+                <br><br>
+                <div class="milk" id="sales">
+
+                <div class="fdata">
+                    <form action="submit" onsubmit="produce();">
+                        <h3 class="key">Production.<br>Key in and submit the form below to get the income summary;</h3>
+                        <div id="shed">
+                            <label for="sA">Shed-A Milk (Ltrs)</label>
+                            <input id="sA" type="number" min="0" required>
+                        </div>
+
+                        <div id="shed">
+                            <label for="sB">Shed-B Milk (Ltrs)</label>
+                            <input id="sB" type="number" min="0" required>
+                        </div>
+
+                        <div id="shed">
+                            <label for="sC">Shed-C Milk (Ltrs)</label>
+                            <input id="sC" type="number" min="0" required>
+                        </div>
+
+                        <div id="shed">
+                            <label for="sD">Shed-D Milk (Ltrs)</label>
+                            <input id="sD" type="number" min="0" required>
+                        </div>
+
+                        <button type="submit">Submit</button>
+                        <button id="reset" type="reset" onclick="resetPage();">Clear</button>
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="outputf">
+                <h3 id="dtitle">Sales and Production Summary</h3>
+                <hr>
+                <p id="odata"></p>
+
+            </div>
+    </div>
+                <!-- Part3 -->
+
+<br><br><br><br>
+<hr>
+<br><br><br>
+<h2 class="cont" id="contacts">Contact Us</h2>
+<br>
+		<!-- Part4//Footer-->
+        <div id="contact">
+           <!-- <hr>-->
+            <!-- Footer-->
+            <footer>
+                <div class="footer">
+                    <div class="fdetails separatestyle">
+                        <div class="logo flogo">
+                            <h1 class="logo flogo">Just Milkit</h1>
+                        </div>
+                        <p>
+                            Quality Farm produce through <br>
+                            buying and selling<br>
+                        </p>
+                        <h3>Email Us:</h3>
+                        <p>just.milkit@gmail.com</p>
+                    </div>
+                    <div class="fdetails separatestyle2">
+                        <h2>Partnerships</h2>
+                        <ul >
+                            <li><a href="">Brookside</a></li>
+                            <li><a href="">KCC</a></li>
+                            <li><a href="">Tuzo</a></li>
+                        </ul>
+                    </div>
+                    <div class="fdetails separatestyle3">
+                        <h2>Products</h2>
+                        <ul>
+                            <li><a href="">Butter</a></li>
+                            <li><a href="">Cheese</a></li>
+                            <li><a href="">Milk</a></li>
+                        </ul>
+                    </div>
+                    <div class="fdetails separatestyle4">
+                        <h2>Reach Us on:</h2>
+                        <ul>
+                            <li><a href="#"><i id="twitter" class="fab fa-twitter"></i>   @just_milkit</a></li>
+                            <li><a href="#"><i id="facebook" class="fab fa-facebook"></i>   @just_milkit</a></li>
+                            <li><a href="#"><i id="instagram" class="fab fa-instagram"></i>   @just_milkit</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerend">
+                    <h3>Created by Just Milkit<br> &copy; 2022</h3>
+                </div>
+            </footer>
+        </div>
+		<!-- Part4//Footer-->
+        <script src="script.js"></script>
+    </body>
+</html>
